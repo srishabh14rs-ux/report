@@ -1,0 +1,93 @@
+*&---------------------------------------------------------------------*
+*& Text Elements for ZRFI_NON_SD_PROJECT_REPORT
+*&---------------------------------------------------------------------*
+*&
+*&  To maintain these in SAP:
+*&    SE38 -> ZRFI_NON_SD_PROJECT_REPORT -> Goto -> Text Elements
+*&
+*&  Three categories below:
+*&    - Selection Texts (selection-screen field labels)
+*&    - Text Symbols    (all in-program strings)
+*&    - List Headings   (not used)
+*&
+*&  Naming convention used here:
+*&    B01-B02   Block titles
+*&    H01       List header
+*&    I01-I02   Information messages
+*&    C01-C17   Column captions / caption fragments
+*&    M01-M12   Month names (Jan..Dec)
+*&    T01-T04   Translated values (DoF flags, Yes/No)
+*&---------------------------------------------------------------------*
+
+
+*&---------------------------------------------------------------------*
+*& SELECTION TEXTS
+*&---------------------------------------------------------------------*
+*  Name      Type   Text
+*  --------- ------ ----------------------------------------
+*  S_BUKRS   S      Company Code
+*  S_KUNNR   S      Customer
+*  S_PRCTR   S      Profit Centre
+*  S_AUFNR   S      Internal Order
+*  S_PERIO   S      Period
+*  P_GJAHR   P      Fiscal Year
+*  P_RDPC    P      Profit Centre Based
+*  P_RDIO    P      Internal Order Based
+
+
+*&---------------------------------------------------------------------*
+*& TEXT SYMBOLS
+*&---------------------------------------------------------------------*
+*  No.   Length   Text
+*  ----- -------- ----------------------------------------------------
+
+*--- Selection-screen block titles ------------------------------------*
+*  B01    50      Selection Criteria
+*  B02    50      Report Mode
+
+*--- ALV list header --------------------------------------------------*
+*  H01    60      Non-SD Project Billing & Collection Report
+
+*--- Information / status messages ------------------------------------*
+*  I01    50      No data found for given selection
+*  I02    50      No data to display
+
+*--- Column captions (1-11) - static fields ---------------------------*
+*  C01    30      Entity
+*  C02    30      Customer Name
+*  C03    30      City
+*  C04    30      Country
+*  C05    30      Research Center
+*  C06    30      DoF/Non-DoF Funded
+*  C07    30      Profit Center/Cost Center
+*  C08    30      Internal Order
+*  C09    30      Revenue GL
+*  C10    30      Related Party Entity
+*  C11    30      Payment Terms (Days)
+
+*--- Column-caption fragments (amount columns) ------------------------*
+*  C12    20      as of 31.12.
+*  C14    20      without VAT
+*  C15    20      with VAT
+*  C16    20      Amount Billed
+*  C17    20      Amount Collected
+
+*--- Month names (Jan..Dec, reused for Bill and Collect columns) ------*
+*  M01    5       Jan
+*  M02    5       Feb
+*  M03    5       Mar
+*  M04    5       Apr
+*  M05    5       May
+*  M06    5       Jun
+*  M07    5       Jul
+*  M08    5       Aug
+*  M09    5       Sep
+*  M10    5       Oct
+*  M11    5       Nov
+*  M12    5       Dec
+
+*--- DoF / Related-party flag values ----------------------------------*
+*  T01    20      Non-DoF Funded
+*  T02    20      DoF Funded
+*  T03    3       Yes
+*  T04    3       No

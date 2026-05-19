@@ -2,12 +2,13 @@
 
 ## Overview
 This document outlines the development roadmap and planning milestones for the project.
+> **Branch:** `non-sd-report` — Non-Standard Development Reports
 
 ---
 
 ## Phase 1: Foundation (Q1 2026)
-- [ ] Set up project repository and branching strategy
-- [ ] Define coding standards and contribution guidelines
+- [x] Set up project repository and branching strategy
+- [x] Define coding standards and contribution guidelines
 - [ ] Configure CI/CD pipeline
 - [ ] Initial architecture design
 
@@ -42,7 +43,23 @@ This document outlines the development roadmap and planning milestones for the p
 
 ---
 
-## Notes
-- Branch strategy: `main` for stable releases, `non-sd report` for non-standard development reports.
-- All feature work should be done on dedicated feature branches.
-- Pull requests require at least one review before merging.
+## Non-Standard Development Notes (non-sd-report)
+
+This branch tracks non-standard development reports and experimental features:
+
+- **Experimental APIs** — Features under active research not yet production-ready
+- **Prototype Modules** — Early-stage implementations for review and feedback
+- **Technical Debt Tracking** — Known issues and deferred improvements
+- **Research Spikes** — Time-boxed investigations into new technologies
+
+---
+
+## Branch Strategy
+- `main` — Stable, production-ready releases
+- `non-sd-report` — Non-standard development reports and experimental work
+- Feature branches — Individual feature development, merged via pull request
+
+## Contribution Guidelines
+- Pull requests require at least one reviewer approval before merging
+- All commits must include a descriptive message
+- Tests must pass before merging into `main`
