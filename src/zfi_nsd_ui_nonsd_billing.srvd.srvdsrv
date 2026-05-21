@@ -1,0 +1,4 @@
+@EndUserText.label: 'Non-SD Billing & Collection Report'
+define service ZFI_NSD_UI_NonSdBilling {
+  expose ZFI_NSD_C_NonSdBilling as NonSdBilling;
+}

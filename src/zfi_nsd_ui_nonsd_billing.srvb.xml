@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRVB" serializer_version="v1.0.0">
+ <abrAPObject type="SRVB">
+  <serviceBindingName>ZFI_NSD_UI_NONSD_BILLING</serviceBindingName>
+  <inboundBinding>
+   <inboundService name="ZFI_NSD_UI_NonSdBilling" protocol="OData V4">
+    <properties/>
+   </inboundService>
+  </inboundBinding>
+ </abrAPObject>
+</abapGit>

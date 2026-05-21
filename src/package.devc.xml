@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DEVC" serializer_version="v1.0.0">
+ <abrAPObject type="DEVC/K">
+  <packageName>ZFI_NSD</packageName>
+  <packageType>development</packageType>
+  <shortDescription>Non-SD Billing &amp; Collection Report</shortDescription>
+  <longDescription>SAP RAP analytical report for Non-SD (non-Sales &amp; Distribution) accounts-receivable, billing, and collection metrics. CDS-based analytical cube aggregating ACDOCA (Universal Journal) with master-data enrichment.</longDescription>
+  <createdBy>rishabh.sharma@diligentglobal.com</createdBy>
+  <createdAt>20260521000000</createdAt>
+  <changedBy>rishabh.sharma@diligentglobal.com</changedBy>
+  <changedAt>20260521000000</changedAt>
+  <superPackage/>
+  <responsible/>
+  <applicationComponent/>
+  <transportLayer/>
+ </abrAPObject>
+</abapGit>
