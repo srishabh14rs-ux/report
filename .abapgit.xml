@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aGitObject>
+  <header>
+    <descrShort>Non-SD Billing &amp; Collection Report (ZFI_NSD)</descrShort>
+    <descrLong>SAP RAP analytical report for Non-SD (non-Sales &amp; Distribution) accounts-receivable, billing, and collection metrics. CDS-based analytical cube aggregating ACDOCA (Universal Journal) with master-data enrichment.</descrLong>
+    <created_by>rishabh.sharma@diligentglobal.com</created_by>
+    <created_at>20260521</created_at>
+    <changed_by>rishabh.sharma@diligentglobal.com</changed_by>
+    <changed_at>20260521</changed_at>
+    <version>0001</version>
+  </header>
+  <packageImportProperties>
+    <includeParentFolder>false</includeParentFolder>
+    <ignoreSubFolders>false</ignoreSubFolders>
+    <skipAbapDoc>false</skipAbapDoc>
+  </packageImportProperties>
+</aGitObject>
